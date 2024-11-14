@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'jenkins-agent-goes-here'
+            label 'docker_agent_python'
         }
     }
     //   To automatically trigger changes from the repo
